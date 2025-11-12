@@ -7,4 +7,3 @@ catboost
 nbconvert
 nbformat
 pytest
-catboost

@@ -16,16 +16,19 @@ The dataset `food-delivery-times.csv` contains information about food deliveries
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/DrJohnWagner/food-delivery.git
    cd food-delivery
    ```
-
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
+
    If `requirements.txt` is not present, install the following packages:
+
    - pandas
    - numpy
    - scikit-learn
@@ -36,27 +39,27 @@ The dataset `food-delivery-times.csv` contains information about food deliveries
 ## Usage
 
 1. Open the Jupyter notebook:
+
    ```bash
-   jupyter notebook food-delivery-xgboost-and-lightgbm.ipynb
+   jupyter notebook notebook.ipynb
    ```
-
 2. Run the cells in order to preprocess data, train models, and evaluate performance.
-
 3. To run tests:
+
    ```bash
-   python test_notebook.py
+   pytest test_notebook.py -v
    ```
 
 ## Project Structure
 
-- `food-delivery-xgboost-and-lightgbm.ipynb`: Main Jupyter notebook with the ML pipeline
+- `notebook.ipynb`: Main Jupyter notebook with the ML pipeline
 - `test_notebook.py`: Test script to validate notebook functionality
 - `input_data/food-delivery-times.csv`: Dataset
 - `Makefile`: Build automation (if applicable)
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+No contributions are being sought at this time.
 
 ## License
 
